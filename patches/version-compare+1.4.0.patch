@@ -1,0 +1,54 @@
+diff --git a/node_modules/version-compare/package.json b/node_modules/version-compare/package.json
+index b857e77..cb83cb8 100644
+--- a/node_modules/version-compare/package.json
++++ b/node_modules/version-compare/package.json
+@@ -1,26 +1,28 @@
+ {
+-  "_from": "https://registry.npmmirror.com/version-compare/-/version-compare-1.4.0.tgz",
++  "_from": "version-compare",
+   "_id": "version-compare@1.4.0",
+   "_inBundle": false,
+   "_integrity": "sha512-mhSGH/W+zv2JuoeefqEbtfSCrHbQD4DhvYXplTnzIllJ58VMuMrRt+2zSmoUb0exBCSKVB05sTPirQwxFhUbbQ==",
+   "_location": "/version-compare",
+   "_phantomChildren": {},
+   "_requested": {
+-    "type": "remote",
+-    "raw": "version-compare@https://registry.npmmirror.com/version-compare/-/version-compare-1.4.0.tgz",
++    "type": "tag",
++    "registry": true,
++    "raw": "version-compare",
+     "name": "version-compare",
+     "escapedName": "version-compare",
+-    "rawSpec": "https://registry.npmmirror.com/version-compare/-/version-compare-1.4.0.tgz",
+-    "saveSpec": "https://registry.npmmirror.com/version-compare/-/version-compare-1.4.0.tgz",
+-    "fetchSpec": "https://registry.npmmirror.com/version-compare/-/version-compare-1.4.0.tgz"
++    "rawSpec": "",
++    "saveSpec": null,
++    "fetchSpec": "latest"
+   },
+   "_requiredBy": [
++    "#USER",
+     "/"
+   ],
+   "_resolved": "https://registry.npmmirror.com/version-compare/-/version-compare-1.4.0.tgz",
+   "_shasum": "6cbe26682ab6596b6f8e5f8a7ea3f46d2463ee27",
+-  "_spec": "version-compare@https://registry.npmmirror.com/version-compare/-/version-compare-1.4.0.tgz",
+-  "_where": "/private/var/folders/y8/rplm90y1497_f8mvtld17vyh0000gq/T/tmp-423846w2Hh2v820VO",
++  "_spec": "version-compare",
++  "_where": "/Users/wangjie/Desktop/workspace/hello-world",
+   "author": {
+     "name": "2020+ Benjamin Lupton",
+     "email": "b@lupton.cc",
+@@ -150,10 +152,8 @@
+     ]
+   },
+   "exports": {
+-    "node": {
+-      "import": "./edition-es5-esm/index.js",
+-      "require": "./edition-es5/index.js"
+-    }
++    "import": "./edition-es5-esm/index.js",
++    "require": "./edition-es5/index.js"
+   },
+   "funding": "https://bevry.me/fund",
+   "homepage": "https://github.com/bevry/version-compare",
